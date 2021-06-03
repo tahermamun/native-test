@@ -8,7 +8,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text onPress={() => console.log('text clicked')} numberOfLines={1}>Hello sword</Text>
 
-
+      <Text onPress={() => console.log('text clicked')} numberOfLines={1}>Hello!</Text>
       <TouchableWithoutFeedback onPress={() => alert('Pressed!')}>
 
       <Image blurRadius={5}   style={styles.logo} source={img1}   />
